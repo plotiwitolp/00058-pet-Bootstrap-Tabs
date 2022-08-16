@@ -15,16 +15,17 @@
 <body>
     <div class="container">
         <ul class="nav nav-tabs">
+            <!-- if buttons: ul class="nav nav-pills"  and data-bs-toggle="pill" -->
             <li class="nav-item"><a href="#home" data-bs-toggle="tab" class="nav-link active" aria-controls="home">Home</a></li>
             <li class="nav-item"><a href="#profile" data-bs-toggle="tab" class="nav-link" aria-controls="profile">Profile</a></li>
             <li class="nav-item"><a href="#messages" data-bs-toggle="tab" class="nav-link" aria-controls="messages">Messages</a></li>
             <li class="nav-item"><a href="#settings" data-bs-toggle="tab" class="nav-link" aria-controls="settings">Settings</a></li>
         </ul>
         <div class="tab-content border border-1 border-top-0 p-3">
-            <div class="tab-pane active" id="home" aria-labelledby="nav-home-tab">Home tab</div>
-            <div class="tab-pane " id="profile" aria-labelledby="nav-profile-tab">Profile tab</div>
-            <div class="tab-pane " id="messages" aria-labelledby="nav-messages-tab">Messages tab</div>
-            <div class="tab-pane " id="settings" aria-labelledby="nav-settings-tab">Settings tab</div>
+            <div class="tab-pane active fade show" id="home" aria-labelledby="nav-home-tab">Home tab</div>
+            <div class="tab-pane fade" id="profile" aria-labelledby="nav-profile-tab">Profile tab</div>
+            <div class="tab-pane fade" id="messages" aria-labelledby="nav-messages-tab">Messages tab</div>
+            <div class="tab-pane fade" id="settings" aria-labelledby="nav-settings-tab">Settings tab</div>
         </div>
     </div>
 
